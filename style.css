@@ -1,0 +1,264 @@
+/* Add styles for centering content */
+header {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+body {
+   background-color: rgb(155, 155, 255);
+   color: darkblue;
+}
+
+h1 {
+   text-align: center;
+}
+
+h2 {
+   text-align: left;
+   font-size: 30px;
+   margin-bottom: 30px;
+}
+
+h3 {
+   text-align: left;
+   font-size: 25px;
+}
+
+p {
+   text-align: left;
+}
+
+h4 {
+   text-align: center;
+   font-size: 20px;
+}
+
+.weatherapp {
+   text-align: left;
+}
+
+/* Add a background color to the section */
+.about-me {
+   background-color:rgb(2, 2, 23); /* Light gray background color, change to your preference */
+   padding: 20px;
+   margin: 20px;
+   border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+/* Set font size and family */
+.about-me h2 {
+   font-size: 2.5rem; /* Adjust the size of the heading */
+   font-family: 'Arial', sans-serif; /* Optional: Set a custom font */
+   text-align: left;
+   color: rgb(57, 47, 236); /* Dark text for better readability */
+}
+
+/* .about-me specific styles */
+.about-me p {
+   font-size: 15px;
+   line-height: 1.6;
+   font-family: 'Arial', sans-serif;
+   color: lightblue !important; /* Use !important if there's a conflict */
+   text-align: left;
+   margin: 15px 0;
+}
+
+/* Post text box styling */
+.post-text-box {
+   text-align: center; /* Default: Center content */
+   margin: 20px 0; /* Adjust margin for spacing */
+   padding-left: 0; /* Default: No left padding */
+}
+
+/* Styling for the Experience section specifically */
+#experience {
+   font-size: 34px;
+   text-align: left; /* Align the content to the left */
+   margin: 20px 0; /* Add vertical spacing */
+   padding-left: 20px; /* Optional: Add space from the left edge */
+   color:aqua;
+}
+
+#experience h2 {
+   font-size: 25px; /* Set the desired size */
+   margin: 0 0 10px 0; /* Remove extra margins and space below */
+   padding: 0; /* Reset any padding */
+   text-align: left; /* Align the heading to the left */
+   font-weight: normal; /* Optional: Use normal font weight */
+   line-height: 1.2; /* Add consistent line spacing */
+   color: rgb(3, 3, 31); /* Ensure the text color matches the theme */
+   
+}
+
+#experience h3 {
+   font-size: 25px; /* Set the desired size */
+   margin: 0 0 10px 0; /* Remove extra margins and space below */
+   padding: 0; /* Reset any padding */
+   text-align: left; /* Align the heading to the left */
+   font-weight: normal; /* Optional: Use normal font weight */
+   line-height: 1.2; /* Add consistent line spacing */
+   color: rgb(53, 3, 76); /* Ensure the text color matches the theme */
+}
+#experience h4 {
+   font-size: 20px; /* Set the desired size */
+   margin: 0 0 10px 0; /* Remove extra margins and space below */
+   padding: 0; /* Reset any padding */
+   text-align: left; /* Align the heading to the left */
+   font-weight: normal; /* Optional: Use normal font weight */
+   line-height: 1.2; /* Add consistent line spacing */
+   color: rgb(2, 2, 12); /* Ensure the text color matches the theme */
+}
+#experience h5 {
+   font-size: 25px; /* Set the desired size */
+   margin: 0 0 10px 0; /* Remove extra margins and space below */
+   padding: 0; /* Reset any padding */
+   text-align: left; /* Align the heading to the left */
+   font-weight: normal; /* Optional: Use normal font weight */
+   line-height: 1.2; /* Add consistent line spacing */
+   color: rgb(53, 3, 76); /* Ensure the text color matches the theme */
+}
+
+#experience h6 {
+   font-size: 20px; /* Set the desired size */
+   margin: 0 0 10px 0; /* Remove extra margins and space below */
+   padding: 0; /* Reset any padding */
+   text-align: left; /* Align the heading to the left */
+   font-weight: normal; /* Optional: Use normal font weight */
+   line-height: 1.2; /* Add consistent line spacing */
+   color: rgb(2, 2, 12); /* Ensure the text color matches the theme */
+}
+
+#experience h7 {
+   font-size: 25px; /* Set the desired size */
+   margin: 0 0 10px 0; /* Remove extra margins and space below */
+   padding: 0; /* Reset any padding */
+   text-align: left; /* Align the heading to the left */
+   font-weight: normal; /* Optional: Use normal font weight */
+   line-height: 1.2; /* Add consistent line spacing */
+   color: rgb(53, 3, 76); /* Ensure the text color matches the theme */
+}
+#experience p {
+   text-align: left; /* Align the paragraph text to the left */
+   font-size: 17px;
+   margin: 0 0 10px 0; /* Adjust spacing below the paragraph */
+   line-height: 1.5; /* Ensure good readability */
+   color: blue; /* Ensure readability on dark background */
+}
+#projects .qpjobbackendapp a {
+   font-size: 20px; /* Adjust the font size to your preference */
+   color:purple;
+}
+#projects .qpjobbackendapp {
+   width: 100%;            /* Ensure the container takes full width */
+   text-align: left;       /* Ensure the text within the parent is left-aligned */
+   position: relative;
+   top: -10px;       /* moves it up */
+   margin-bottom: 20px; /* keeps space below */
+}
+#projects .weatherapp a {
+   font-size: 20px; /* Adjust the font size to your preference */
+   color:purple;
+}
+#projects .musicgenreclassificationproject a {
+   font-size: 20px; /* Adjust the font size to your preference */
+   color:purple;
+}
+#projects .apexbankingproject {
+   width: 100%;            /* Ensure the container takes full width */
+   text-align: left;       /* Ensure the text within the parent is left-aligned */
+}
+
+#projects .apexbankingproject a {
+   font-size: 20px;        /* Adjust the font size */
+   color: purple;
+   text-align: left;       /* Ensure the link text itself is left-aligned */
+   display: inline-block;  /* Ensure the link is treated like a block element */
+   margin-left: 0;         /* Optional: Ensure there's no left margin */
+}
+#contact {
+   width: 100%;            /* Ensure the container takes full width */
+   text-align: left;       /* Align the text to the left */
+}
+
+#contact a {
+   font-size: 20px;        /* Adjust the font size */
+   color: blue;       /* Set the link color */
+   text-align: left;       /* Align the text inside the link to the left */
+   display: inline-block;  /* Treat the link as an inline block element */
+   margin-left: 0;         /* Optional: Ensure there's no left margin */
+}
+/* Navigation styles */
+nav {
+   display: flex;
+   justify-content: space-between; /* Distribute nav items with equal space */
+   margin-top: 10px;
+   padding: 0 20px; /* Adds some padding on the sides */
+}
+
+nav ul {
+   display: flex;
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+   width: 100%; /* Ensure the ul takes full width for spacing */
+   text-align: left;
+}
+
+nav ul li {
+   flex-grow: 1; /* Ensures each link takes up space */
+   text-align: center; /* Center the text inside each li */
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: purple;
+   font-size: 22px;
+   transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+   color: rgb(155, 155, 255);
+}
+
+/* Profile and other sections styling */
+.profile {
+   text-align: center;
+}
+
+.profile h1, .profile h2, .profile h3, .profile h4, .profile h5 {
+   margin-bottom: 0px;
+}
+
+.profile-img {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: 20px;
+}
+
+/* Footer styling */
+footer {
+   text-align: center;
+   padding: 20px;
+   margin-top: 30px;
+   background-color: rgb(155, 155, 255);
+   font-size: 14px;
+   color: #333;
+}
+footer a {
+   color: purple;   /* Set both links to purple */
+   text-decoration: none;   /* Optional: Remove underline from the links */
+   text-align: left;
+}
+
+footer a:hover {
+   color: purple;   /* Optional: Darker purple when the link is hovered over */
+   text-align: left;
+}
+ 
+ 
+ 
+ 
+ 
+ 
